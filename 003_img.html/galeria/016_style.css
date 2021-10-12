@@ -1,0 +1,75 @@
+ul#album {
+    width: 700px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+    list-style: none;
+}
+
+ul#album li {
+    float: left;
+    width: 200px;
+    height:200px;
+    margin: 10px;
+    border: 5px solid white;
+    background-color: white;
+    box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+    transition: all 0.3s ease-in;
+}
+
+li {
+    font: bold 20px arial;
+    color: white;
+    text-align: center;
+}
+
+ul#album li span {
+    background-color:rgb(117, 117, 117);
+    border-radius: 5px;
+    padding: 7px;
+    opacity: 1;
+}
+
+ul#album li:hover {
+    transform: scale(1.5);
+}
+
+ul#album li#foto1:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#album li#foto2:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#album li#foto3:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+/* fotos */
+
+ul#album li#foto1 {
+    background: url(fotos/sabo_1.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size:400px 400px;
+    background-color: white;
+}
+
+
+
+ul#album li#foto2 {
+    background: url(fotos/sabo_2.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+
+ul#album li#foto3 {
+    background: url(fotos/sabo_3.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
