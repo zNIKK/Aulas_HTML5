@@ -5,15 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Teste com imagens</title>
     <style>
+        body {
+            text-align: center;
+        }
         figure.logoCSS {
+            display: inline-block;
             border: 3px solid white;
             box-shadow: 1px 1px 4px black;
             position: relative;
         } 
-        figure.logoCSS img{
-            width: 100%;
-            height: 100%;
-        }
+
         figure.logoCSS figcaption {
             opacity: 0;
             font: normal 18px Arial; 
@@ -33,17 +34,20 @@
     </style>
 </head>
 <body>
-    <h1>Testando carga e imagens</h1>
+    <h1>Testando download de imagens</h1>
     <hr>
-    <figure class='logoCSS'>
-    <p><img src="imagens/css-200.webp" alt="Logo CSS"></p>
-    <figcaption>
+
+    <figure class='logoCSS'> <!--Tag usada para definir uma foto, para ilustração (é necessário uma descrição com a tag <figcaption>)-->
+    <p><img src="imagens_002/css-200.webp" width=300 alt="Logo CSS"></p> <!-- "alt" serve para especificar para o google o que essa imagem é -->
+
+    <figcaption> <!-- Representa uma legenda ou uma legenda associada com uma tag figure ou ilustração descrita -->
         <h3>Logo css</h3>
         <p>linguagem vísual</p>
-    </figcaption>
+    </figcaption> 
     </figure> 
+
     <hr>
-    <p><img src="imagens/html5-200.webp" alt="logo HTML5"></p>
+    <p><img src="imagens_002/html5-200.webp" alt="logo HTML5"></p>
     <hr>
     <p><img src="http://innovativeteams.net/wp-content/uploads/2017/01/jsLogo.png" alt="Logo JavaScript"></p>
 </body>
