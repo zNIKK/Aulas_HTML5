@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inputs</title>
+</head>
+<body>
+    <h1>Tipos de inputs</h1>
+
+    <form>
+        <p>Texto: <input type="text" value='nicolas'></p>
+        <p>Search: <input type="search" name="search"></p>
+        <input type="submit" value="Submit">
+        <input type="reset">    
+    </form>
+
+    <p><input type="text" placeholder="Não pode escrever" readonly></p>
+
+
+
+    <p>E-mail: <input type="email" id="cMail" size="30" maxlength="40" placeholder="exemplo@email.com"></p>
+    <p>Senha: <input type="password" size="8" maxlength="8"></p>
+
+    <p>Números: <input type="number"></p>
+
+    <p>Número de Telefone: <input type='tel' size="11" maxlength="11" placeholder="(11) 99999-9999"></p>
+
+    <p>Data de Nascimento: <input type='date'></p>
+
+    <p>Escolha um arquivo: <input type="file"></p>
+
+    
+    <p>Estado:
+    <Select>
+        <option>Acre</option>
+        <option>Alagoas</option>
+        <option>Amapá</option>
+        <option>Amazonas</option>
+        <option>Bahia</option>
+        <option>Ceará</option>
+        <option>Distrito Federal</option>
+        <option>Espírito Santo</option>
+        <option>Goiás</option>
+        <option>Maranhão</option>
+        <option>Mato Grosso</option>
+        <option>Mato Grosso do Sul</option>
+        <option>Minas Gerais</option>
+        <option>Pará</option>
+        <option>Paraíba</option>
+        <option>Paraná</option>
+        <option>Pernambuco</option>
+        <option>Piauí</option>
+        <option>Rio de Janeiro</option>
+        <option>Rio Grande do Norte</option>
+        <option>Rio Grande do Sul</option>
+        <option>Rondônia</option>
+        <option>Roraima</option>
+        <option>Santa Catarina</option>
+        <option selected>São Paulo</option>
+        <option>Sergipe</option>
+        <option>Tocantins</option>
+    </Select>
+    <p>check 01: <input type="checkbox"></p>
+    <p>check 02: <input type="checkbox"></p>
+    <p>check 03: <input type="checkbox"></p>
+
+
+    <p><textarea cols="45" rows="5" placeholder="Digite aqui sua mensagem"></textarea></p>
+
+    <p>Masculino: <input type="radio" name="sexo" checked></p>
+    <p>Feminino: <input type="radio" name="sexo"></p>
+
+    <p>MAX <input type="range" min='0' max='100' step='1'> MIN</p>
+
+    <p>Cores: <input type="color" value="#0000FF"></p>
+
+
+    <input type="button" onclick="alert('Hello World!')" value="Click Me!">
+
+</body>
+</html>
