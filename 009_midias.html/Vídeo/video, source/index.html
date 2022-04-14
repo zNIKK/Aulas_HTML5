@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeo em HTML5</title>
+</head>
+<body>
+    <h1>Inserindo videos hospedados em HTML5</h1>
+    <p>Este video esta hospedado no meu próprio servidor</p>
+
+    <!-- Videos baixados -->
+    <video width="400" preload="auto" controls autoplay muted loop> <!--controls - Mostra os controles do vídeo -->
+        
+        <source src="video/video_original.mp4" type="video/mp4" >  <!-- source serve para o audio ser compatível com vários navegadores -->
+        <source src="video/video_convertido.m4v" type="video/mp4">  <!-- poster="url" - img em thumbnail -->
+        <source src="video/Video Original-1.webm" type="video/webm">
+        <source src="video/video_original - Copia.ogv" type="video/ogg">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeos</p>
+    </video>
+    
+    <h1>Inserindo videos do youtube</h1>
+
+    <!-- Video diretamente do youtube-->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Y-xLlZgng_o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h1>Inserindo videos do vimeo</h1>
+    
+    <!-- Video diretamente pelo vimeo -->
+    <iframe src="https://player.vimeo.com/video/472073337?color=ff9933&title=0&portrait=0" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/472073337">Levi vs Beast Titan Attack On Titans (Shingeki no Kyojin) Melhor Luta</a> from <a href="https://vimeo.com/mangalivreredesocial">Manga Livre Rede Social</a> on <a href="https://vimeo.com">Vimeo</a>
+</body>
+</html>
